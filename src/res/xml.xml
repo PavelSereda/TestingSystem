@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<tests xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.sereda.com/xsd"
+       xsi:schemaLocation="http://www.sereda.com/menu-schema xsd.xsd">
+    <test>
+        <testedObj>Tutor</testedObj>
+        <DProviderName>dp2</DProviderName>
+        <commandName>CHECK_TUTOR</commandName>
+    </test>
+    <test>
+        <testedObj>Tutor</testedObj>
+        <DProviderName>dp3</DProviderName>
+        <commandName>SHOW_RESULTS</commandName>
+    </test>
+    <test>
+        <testedObj>Tutor</testedObj>
+        <DProviderName>dp4</DProviderName>
+        <commandName>ADD_TEST</commandName>
+    </test>
+    <test>
+        <testedObj>Strudent</testedObj>
+        <DProviderName>dp1</DProviderName>
+        <commandName>ADD_ANSWER</commandName>
+    </test>
+    <test>
+        <testedObj>Strudent</testedObj>
+        <DProviderName>dp2</DProviderName>
+        <commandName>SHOW_SUBJECTS</commandName>
+    </test>
+</tests>
